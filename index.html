@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Callum Pope</figcaption>
+        </figure>
+        <img src="images/menu.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="games.html">Portfolio</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Callum Pope - Portfolio</h1>
+        <p>An aspiring games programmer who enjoys creating games & game models</p>
+
+        <a href="games.html" class="cta">View Portfolio</a>
+        <img src="images/Home.png">
+
+    </main>
+
+    <script>
+
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+                
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+
+    </script>
+</body>
+</html>

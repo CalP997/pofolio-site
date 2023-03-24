@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Designs</title>
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Callum Pope</figcaption>
+        </figure>
+        <img src="images/menu.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="games.html">Portfolio</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>Designs</h1>
+        <img src="images/Dungeon.png">
+        <img src="images/House.png">
+        <img src="images/Interior.png">
+        <img src="images/Player.png">
+        <img src="images/Skeleton.png">
+        <img src="images/Weappon.png">
+        <img src="images/TieSheet_edited.jpg">
+        <img src="images/XWingSheet_edited.jpg">
+        <img src="images/ExSprite_edited.jpg">
+	<img src="images/MSc1.png">
+	<img src="images/msc2.png">
+	<img src="images/msc3.png">
+    </main>
+
+    <script>
+
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+                
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+
+    </script>
+</body>
+</html>

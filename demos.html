@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Demos</title>
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Callum Pope</figcaption>
+        </figure>
+        <img src="images/menu.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="games.html">Portfolio</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>Demos</h1>
+        <h2>Maze Game</h2>
+        <iframe src="https://player.vimeo.com/video/510197037" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>A demonstration of a small maze game created as a part of one of my university modules. Maze game 2 serves as an extra credit piece that was meant to add further improvements and enhancements to the original maze. This game adds a speed boost power up, life system and the game UI (menus, game over screen). The game is controlled using the arrow keys to move left, right up and down.
+        </p>
+        
+        <h2>Quiz Game</h2>
+        <iframe src="https://player.vimeo.com/video/504308223" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>Demo of the quiz game showcasing one of the difficulty levels of the quiz (Easy)</p>
+
+        <h2>Text Based Game</h2>
+        <iframe src="https://player.vimeo.com/video/504307444" width="640" height="420" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>A demo of my star wars episode 4 text based adventure game created in C++</p>
+
+        <h2>Employability Game</h2>
+        <iframe src="https://player.vimeo.com/video/504308175" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>A small demo of the virus game created for my Employability module at University</p>
+
+        <h2>Project (Unity)</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dHM92-RsVss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Demo of the Unity build of my final year undergraduate project.</p>
+
+        <h2>Project (Unreal)</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M8NE9T4Eumo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>A demo of the Unreal build of my final year undergraduate project.</p>
+
+        <h2>Space Survival</h2>
+        <iframe src="https://player.vimeo.com/video/510199043" width="640" height="427" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>A demo of my recreation space survival game created in the unity engine. This demo shows off the sound integration with the music/blast effects.</p>
+	<h2>AR Demonstration</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/k9QmqXsb-es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<p>A demo of the AR application created as a part of my work experience with draw and code.</p>
+    </main>
+
+    <script>
+
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+                
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+
+    </script>
+</body>
+</html>

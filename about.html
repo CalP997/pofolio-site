@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Callum Pope</figcaption>
+        </figure>
+        <img src="images/menu.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="games.html">Portfolio</a></li>
+                <li><a href="designs.html">Designs</a></li>
+                <li><a href="demos.html">Demos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>About me</h1>
+        <p>I have always been interested in the games industry, ever since I received my first console, the PlayStation 2.
+            After this I began to pursue a career in the games industry. Throughout the course of my college and university courses I have made a few games for modules and end of year projects as well as some games in my spare time. These are varied from each other greatly being both 2D and 3D to allow for me to experiment with different game types and styles. Most of these have been made using Unity with more recent projects being made in Unreal Engine. Most of these also make use of custom created assets and textures created in the Blender and Gimp software packages.</p>
+    </main>
+
+    <script>
+
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+                
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#263a49+0,54a7e4+100 */
+    background: #263a49; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #263a49 0%, #54a7e4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #263a49 0%,#54a7e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #263a49 0%,#54a7e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263a49', endColorstr='#54a7e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+aside{
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+img[src$="images/menu.svg"]{
+    width: 40px;
+    cursor: pointer;
+}
+
+img[src$="images/Home.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Dungeon.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/House.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Interior.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Player.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Skeleton.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Weappon.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/TieSheet_edited.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/XWingSheet_edited.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/ExSprite_edited.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/QuizGame.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/TieGame.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/VRGame.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/EmployGame.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="mages/UnityGame.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Unreal Game.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/NewSpaceGame.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/CustomerDetails.jpg"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/MobileApp.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/JavaProg.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/Gesture.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+img[src$="images/HealthSpa.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+
+video{
+    display: run-in;
+    width: 80%;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav{
+    background: #fff;
+}
+
+.active{
+    position: absolute;
+    display: block;
+    background: #fff;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: .8em;
+    display: block;
+    padding: 1.5em 3em;
+    background-color: rgba(255, 255, 255, .59);
+    color: #000;
+}
+
+main{
+    background: #fff;
+    padding: 1em 1.4em;
+}
+
+h1{
+    margin: 0;
+}
+p{
+    font-size: 1.1em;
+}
+
+.cta{
+    display: block;
+    color: #fff;
+    background: #608BEE;
+    text-decoration: none;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 2em 0;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 2em;
+    }
+
+    img[src$="images/menu.svg"]{
+        display: none;
+    }
+
+
+    aside{
+        background: #C0C0C0;
+        grid-template-columns: auto;
+        grid-template-rows: 20% auto;
+        padding: 0;
+    }
+
+    main{
+        padding: 4em;
+        background: #fff;
+    }
+
+    #avatar{
+        border-radius: 50%;
+        background: #fff;
+        width: 60px;
+        height: 60px;
+        margin: 2em auto 1em auto;
+    }
+
+    figcaption{
+        text-align: center;
+        color: #707070;
+    }
+
+    ul{
+        display: block;
+        margin-top: 2em;
+        position: relative !important;
+        background: none !important;
+        width: 100% !important;
+    }
+
+    ul li a:hover{
+        background-color: #fff;
+    }
+
+    nav{
+        background: none;
+    }
+
+    .cta{
+        display: inline-block;
+        padding: .8em 3em;
+        font-size: 1.3em;
+
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+}
